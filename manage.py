@@ -1,6 +1,5 @@
 from flask import Flask,request,render_template,jsonify
 import json
-
 app=Flask(__name__)
 @app.route('/')
 def render():
@@ -17,8 +16,6 @@ def dados():
         try:
                 with open ("dados/pesquisa.json","r") as arq:
                      lista_dados=json.load(arq)
-
-
         except FileNotFoundError:
                 lista_dados=[]
         lista_dados.append(dados)
