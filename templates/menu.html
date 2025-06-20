@@ -3,10 +3,11 @@
 <head>
           <meta charset="UTF-8">
           <title>pesquisa </title>
+          <link rel="stylesheet" href="{{url_for('static',filename='css/menu.css')}}">
 </head>
 <body>
           <div style="text-align: center;">
-                    <h1>digite </h1>
+                    <h1 class="a">digite </h1>
                     <form action="/d" method="POST">
                               <label>seu nome</label><br>
                               <input type="text" name="nome" required><br><br>
@@ -16,7 +17,7 @@
                               <input type="text" name="instagram" required><br><br>
                               <label >sua idade</label><br>
                               <input type="number" step="1" name="idade" required><br><br>
-                              <input type="submit" value="enviar">
+                              <input type="submit" value="enviar" class="sub">
                     </form>
           </div>
           
