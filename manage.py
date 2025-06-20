@@ -6,7 +6,7 @@ def render():
           return render_template('menu.html')
 @app.route('/d',methods=['POST'])
 def dados():
-        generos=['mulher','homem','feminino','masculino','m','f']
+        generos=['mulher','homem','feminino','masculino','m','f','h']
         genero=request.form.get('genero')
         nome=request.form.get('nome')
         insta=request.form.get('instagram')
