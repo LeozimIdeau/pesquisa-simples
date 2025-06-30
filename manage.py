@@ -29,6 +29,6 @@ def dados():
                 json.dump(lista_dados,arq,indent=4)
             return render_template('resultados.html')
         else:  
-                return render_template('menu.html')
+            return render_template('menu.html')
 if __name__=='__main__':
         app.run(debug=True)
