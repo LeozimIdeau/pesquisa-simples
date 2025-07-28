@@ -30,5 +30,6 @@ def dados():
             return render_template('resultados.html')
         else:  
             return render_template('menu.html')
+            
 if __name__=='__main__':
         app.run(debug=True)
