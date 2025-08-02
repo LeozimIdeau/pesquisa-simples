@@ -10,7 +10,10 @@ label{
           color: brown;
 }
 input{
-          background-color: coral;
+          background-color: rgb(6, 199, 247);
+}
+button{
+          background-color: beige;
 }
 .a{
           color: chocolate;
