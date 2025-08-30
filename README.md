@@ -1,4 +1,4 @@
-# pesquisa-simples
+# Pesquisa-simples
 
 Um pequeno projeto em Flask para praticar um algoritmo de pesquisa em listas ou conjuntos de dados.
 ---
@@ -36,5 +36,5 @@ Este projeto foi desenvolvido para treinar os conceitos de:
 - │   └── index.html    # Página principal com campo de busca e resultados
 - │
 - └── static/
--     └── css/
--       └── style.css # Estilização básica da interface
+-    └── css/
+-    └── style.css # Estilização básica da interface
