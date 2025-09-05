@@ -39,6 +39,6 @@ Este projeto foi desenvolvido para treinar os conceitos de:
 - │   └── resultados.html    
 - │
 - ├──  static/
-- │  ├──  css/
-- │   ├── menu.css
-- │   └──resultados.css
+- │    └── css/
+- │      ├── menu.css
+- │      └──resultados.css
